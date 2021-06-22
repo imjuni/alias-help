@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@src/*": ["src/*"],
+      "@samsubdir/*": ["src/sample-sub-dir/*"],
+      "@samdir/*": ["../sample-dir/*"],
+      "@avengers/*": [
+        "../ironman/*",
+        "../hulk/*",
+        "../spiderman/*"
+      ]
+    },                           /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+  }
+}

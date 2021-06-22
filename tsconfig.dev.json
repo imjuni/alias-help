@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "node_modules/**",
+    "**/__test__/**",
+    "**/__tests__/**",
+    "dist/**",
+    "example/**",
+    "**/*.js",
+    "just.config.ts",
+    "ava.config.js",
+    "webpack.config.dev.ts",
+    "webpack.config.prod.ts"
+  ]
+}
